@@ -1,3 +1,18 @@
+.brand2 {
+  background-color: #75485e; }
+
+.accent3 {
+  background-color: #DDDDbb; }
+
+.brand1 {
+  background-color: #1b998b; }
+
+.brand1-text {
+  color: #1b998b; }
+
+.brand2-text {
+  color: #75485e; }
+
 /**
  * Set up a decent box model on the root element
  */
@@ -19,7 +34,7 @@ html {
  * Basic styles for links
  */
 a {
-  color: #56445D;
+  color: #1b998b;
   text-decoration: none; }
   a:hover, a:active, a:focus {
     color: #2d3047;
@@ -91,6 +106,10 @@ body {
 h1 {
   font-family: "Nunito", sans-serif;
   color: #1b998b; }
+
+.fixed-action-btn img {
+  width: 25px;
+  margin-top: 5px; }
 
 .footer {
   background-color: #1b998b;
@@ -523,11 +542,7 @@ nav img {
   height: 99vh;
   font-family: "Nunito", sans-serif; }
   .hero img {
-    width: 75px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    color: #75485e; }
+    width: 75px; }
   .hero h1 {
     font-family: "Nunito", sans-serif;
     color: #75485e;
@@ -537,5 +552,12 @@ nav img {
   .hero .hero-accent {
     display: flex;
     justify-content: center; }
+
+.hero img {
+  transition: all .1s linear;
+  cursor: pointer;
+  animation: pulse 5s infinite; }
+.hero img:hover {
+  transform: perspective(200px) scale(2); }
 
 /*# sourceMappingURL=main.css.map */

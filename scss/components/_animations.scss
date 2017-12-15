@@ -1,0 +1,12 @@
+.hero {
+  img {
+  transition: all .1s linear;
+  cursor: pointer;
+  animation: pulse 5s infinite;
+  }
+
+  img:hover {
+    transform: perspective(200px) scale(2);
+  }
+
+}

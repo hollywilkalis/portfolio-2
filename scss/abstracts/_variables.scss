@@ -9,7 +9,25 @@ $accent1: #A2C48D;
 $accent2: #56445D;
 $accent3: #DDDDbb;
 
+.brand2 {
+  background-color: $brand2;
+}
 
+.accent3 {
+  background-color: $accent3;
+}
+
+.brand1 {
+  background-color: $brand1;
+}
+
+.brand1-text {
+  color: $brand1;
+}
+
+.brand2-text {
+  color: $brand2;
+}
 /// Regular font family
 /// @type List
 $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
