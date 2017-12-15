@@ -19,10 +19,10 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #5c82c4;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #222222;
+    color: #1A0200;
     text-decoration: underline; }
 
 img {
@@ -85,26 +85,12 @@ img {
  * Basic typography style for copy text
  */
 body {
-  color: #222222;
+  color: #1A0200;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 2fr 10fr;
-  grid-template-rows: repeat(12, 1fr); }
-
-.sidebar {
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 2; }
-
-#display {
-  grid-column: 2 / span 1;
-  grid-row: 1/ span 12; }
-
-.album-input {
-  position: fixed;
-  top: 5%;
-  padding: 15px; }
+h1 {
+  font-family: "Nunito", sans-serif;
+  color: #51a3a3; }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -510,41 +496,32 @@ template {
 [hidden] {
   display: none; }
 
-#display {
-  display: flex;
-  flex-wrap: wrap; }
-  #display .gallery-item {
-    flex-basis: 300px;
-    min-height: 300px;
-    margin: 1vmin;
-    align-items: center;
-    justify-content: center;
-    perspective: 1000px;
-    border: black 2px solid;
-    position: relative;
-    transition: all 1s ease-in-out;
-    transform-style: preserve-3d; }
-    #display .gallery-item:hover {
-      transform: rotateY(180deg); }
-    #display .gallery-item .front, #display .gallery-item .back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      font-size: 30px;
-      text-align: center;
-      line-height: 300px;
-      color: black; }
-    #display .gallery-item .front {
-      z-index: 2;
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      backface-visibility: hidden; }
-    #display .gallery-item .back {
-      z-index: 1;
-      transform: rotateY(180deg);
-      backface-visibility: hidden; }
+.nav-wrapper {
+  background-color: #75485e; }
+
+nav img {
+  width: 75px;
+  margin: 0px 0px 10px 10px; }
+
+.hero {
+  background-color: #51a3a3;
+  font-size: 25px;
+  color: white;
+  margin-top: -26px;
+  padding: 20px 20px 0px 20px;
+  height: 99vh;
+  font-family: "Nunito", sans-serif; }
+  .hero img {
+    width: 5%;
+    min-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .hero h1 {
+    font-family: "Nunito", sans-serif;
+    color: #dfcc74;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

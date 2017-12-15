@@ -1,0 +1,27 @@
+.hero {
+  background-color: $brand1;
+  font-size: 25px;
+  color: white;
+  margin-top: -26px;
+  padding: 20px 20px 0px 20px;
+  height: 99vh;
+  font-family: $font1;
+
+  img {
+    width: 5%;
+    min-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-family: $font1;
+    color: $highlight;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+
+}

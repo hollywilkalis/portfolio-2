@@ -2,16 +2,16 @@
  * Basic typography style for copy text
  */
 body {
-  color: $text-color;
+  color: $text;
   font: normal 125% / 1.4 $text-font-stack;
 
 }
 
-$font1: 'Hammersmith One', sans-serif;
-$font2: 'Viga', sans-serif;
+$font1: 'Nunito', sans-serif;;
+
 
 h1 {
-  font-family: $font2;
-  color: $primary;
+  font-family: $font1;
+  color: $brand1;
 
 }
