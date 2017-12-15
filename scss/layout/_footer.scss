@@ -1,3 +1,19 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+.footer {
+  background-color: $brand1;
+  color: white;
+
+  h2 {
+    font-size: 30px;
+    color: $accent3;
+    font-family: $font1;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}

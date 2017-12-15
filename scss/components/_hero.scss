@@ -1,5 +1,5 @@
 .hero {
-  background-color: $brand1;
+  background-color: $accent1;
   font-size: 25px;
   color: white;
   margin-top: -26px;
@@ -8,19 +8,24 @@
   font-family: $font1;
 
   img {
-    width: 5%;
-    min-width: 100px;
+    width: 75px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    color: $brand2;
   }
 
   h1 {
     font-family: $font1;
-    color: $highlight;
+    color: $brand2;
     font-size: 35px;
     text-align: center;
     font-weight: bold;
+  }
+
+  .hero-accent {
+    display: flex;
+    justify-content: center;
   }
 
 
