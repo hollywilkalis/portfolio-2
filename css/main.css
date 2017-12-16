@@ -16,6 +16,9 @@
 .accent3-text {
   color: #DDDDbb; }
 
+.button-white {
+  color: white; }
+
 /**
  * Set up a decent box model on the root element
  */
@@ -609,10 +612,11 @@ template {
     color: white; }
   .project button {
     background-color: #75485e;
+    margin-top: 15px;
     color: white; }
 
 #blob {
-  background-image: url("../img/project-dummy.jpeg"); }
+  background-image: url("../img/blobs.png"); }
 
 #boop {
   background-image: url("../img/project-dummy.jpeg"); }
