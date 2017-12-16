@@ -1,11 +1,13 @@
 .nav-wrapper {
   background-color: $brand2;
-}
 
-nav {
   img {
     width: 75px;
     margin: 0px 0px 10px 10px;
+  }
+
+  ul {
+    right: 10px;
   }
 
   li:hover {
