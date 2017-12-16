@@ -1,0 +1,51 @@
+.gallery-display {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  border: solid 2px $brand2;
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .project-title {
+    font-family: $font1;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 15px;
+    color: white;
+  }
+
+  button {
+    background-color: $brand2;
+    color: white;
+  }
+}
+
+#blob {
+  background-image: url("../img/project-dummy.jpeg");
+}
+
+#boop {
+  background-image: url("../img/project-dummy.jpeg");
+}
+
+#bubbaville {
+  background-image: url("../img/project-dummy.jpeg");
+}
+
+#album {
+  background-image: url("../img/project-dummy.jpeg");
+}

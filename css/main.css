@@ -13,6 +13,9 @@
 .brand2-text {
   color: #75485e; }
 
+.accent3-text {
+  color: #DDDDbb; }
+
 /**
  * Set up a decent box model on the root element
  */
@@ -113,7 +116,11 @@ h1 {
 
 .footer {
   background-color: #1b998b;
-  color: white; }
+  color: white;
+  display: flex;
+  flex-wrap: wrap; }
+  .footer .footer-section {
+    padding: 10px; }
   .footer h2 {
     font-size: 30px;
     color: #DDDDbb;
@@ -121,7 +128,20 @@ h1 {
     font-weight: bold; }
   .footer p {
     font-size: 18px; }
+  .footer a {
+    color: white;
+    cursor: pointer; }
 
+@media screen and (min-width: 700px) {
+  .footer-section {
+    justify-content: space-between;
+    align-content: flex-start; }
+
+  #contact {
+    width: 35%; }
+
+  #about {
+    width: 65%; } }
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -532,6 +552,9 @@ template {
 nav img {
   width: 75px;
   margin: 0px 0px 10px 10px; }
+nav li:hover {
+  background-color: #DDDDbb;
+  color: #75485e; }
 
 .hero {
   background-color: #A2C48D;
@@ -539,7 +562,7 @@ nav img {
   color: white;
   margin-top: -26px;
   padding: 20px 20px 0px 20px;
-  height: 99vh;
+  height: 75vh;
   font-family: "Nunito", sans-serif; }
   .hero img {
     width: 75px; }
@@ -559,5 +582,45 @@ nav img {
   animation: pulse 5s infinite; }
 .hero img:hover {
   transform: perspective(200px) scale(2); }
+
+.gallery-display {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.project {
+  border: solid 2px #75485e;
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .project .project-title {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-align: center; }
+  .project p {
+    font-size: 15px;
+    color: white; }
+  .project button {
+    background-color: #75485e;
+    color: white; }
+
+#blob {
+  background-image: url("../img/project-dummy.jpeg"); }
+
+#boop {
+  background-image: url("../img/project-dummy.jpeg"); }
+
+#bubbaville {
+  background-image: url("../img/project-dummy.jpeg"); }
+
+#album {
+  background-image: url("../img/project-dummy.jpeg"); }
 
 /*# sourceMappingURL=main.css.map */

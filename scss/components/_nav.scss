@@ -8,4 +8,9 @@ nav {
     margin: 0px 0px 10px 10px;
   }
 
+  li:hover {
+    background-color: $accent3;
+    color: $brand2;
+  }
+
 }

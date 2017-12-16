@@ -5,6 +5,12 @@
 .footer {
   background-color: $brand1;
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+
+  .footer-section {
+    padding: 10px;
+  }
 
   h2 {
     font-size: 30px;
@@ -15,5 +21,25 @@
 
   p {
     font-size: 18px;
+  }
+
+  a {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footer-section {
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+
+  #contact {
+    width: 35%;
+  }
+
+  #about {
+    width: 65%;
   }
 }
