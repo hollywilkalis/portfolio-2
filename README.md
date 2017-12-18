@@ -16,9 +16,6 @@ When complete, the site will have a gallery for projects with a card for each sh
 * You can now access and edit the project files.
 * To view a live version of this site, visit http://hollywilkalis.github.io/portfolio-2
 
-## Known Bugs
-
-12/15/17, 5:00 PM: The collapsible nav is currently not working correctly.
 
 ## Support and contact details
 

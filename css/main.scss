@@ -2,19 +2,19 @@
   background-color: #331E38; }
 
 .accent3 {
-  background-color: #DCEED1; }
+  background-color: #DDDDbb; }
 
 .brand1 {
-  background-color: #70A0AF; }
+  background-color: #1b998b; }
 
 .brand1-text {
-  color: #70A0AF; }
+  color: #1b998b; }
 
 .brand2-text {
   color: #331E38; }
 
 .accent3-text {
-  color: #DCEED1; }
+  color: #DDDDbb; }
 
 .button-white {
   color: white; }
@@ -40,10 +40,10 @@ html {
  * Basic styles for links
  */
 a {
-  color: #70A0AF;
+  color: #1b998b;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #34344A;
+    color: #2d3047;
     text-decoration: underline; }
 
 img {
@@ -106,12 +106,12 @@ img {
  * Basic typography style for copy text
  */
 body {
-  color: #34344A;
+  color: #2d3047;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 h1 {
   font-family: "Nunito", sans-serif;
-  color: #70A0AF;
+  color: #1b998b;
   font-weight: bold;
   font-size: 35px; }
 
@@ -120,7 +120,7 @@ h1 {
   margin-top: 5px; }
 
 .footer {
-  background-color: #70A0AF;
+  background-color: #1b998b;
   color: white;
   display: flex;
   flex-wrap: wrap; }
@@ -128,7 +128,7 @@ h1 {
     padding: 10px 10px 30px 10px; }
   .footer h2 {
     font-size: 30px;
-    color: #DCEED1;
+    color: #DDDDbb;
     font-family: "Nunito", sans-serif;
     font-weight: bold; }
   .footer p {
@@ -559,11 +559,11 @@ template {
   .nav-wrapper ul {
     right: 10px; }
   .nav-wrapper li:hover {
-    background-color: #DCEED1;
+    background-color: #DDDDbb;
     color: #331E38; }
 
 .hero {
-  background-color: #A0C1B9;
+  background-color: #A2C48D;
   font-size: 25px;
   color: white;
   margin-top: -26px;
@@ -627,4 +627,4 @@ template {
 #album {
   background-image: url("../img/project-dummy.jpeg"); }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.scss.map */
